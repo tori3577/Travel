@@ -1,11 +1,11 @@
 h1 {
   margin-top: 50px;
   font-size: 72px;
-  background: -webkit-linear-gradient(#000066, #000033);
+  background: -webkit-linear-gradient(#00131a, #007099);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  font-family: Palatino;
+  font-family: Impact;
 }
 .pics  {
    display: inline-block;
@@ -26,10 +26,17 @@ img {
   text-align: center;
 }
 
+#middletext {
+  text-align: center;
+  font-family: Impact;
+  font-size: 50px;
+}
+
 #mainButton {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 70px;
   position: relative;
   width: 150px;
   heigth: 80px;
@@ -40,12 +47,13 @@ img {
   transition: all 0.3s ease;
 }
 
-.color:hover
+.colorful:hover
 {
-  background: #5c5cd6
+  background: #0086b3;
 }
 
 body {
-  background-image: url();
+  background-image: url("pictures/background_img11.jpg");
   background-size: cover;
+
 }
